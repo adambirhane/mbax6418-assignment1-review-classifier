@@ -1,0 +1,54 @@
+{
+  "run": "step6_balanced3",
+  "mode": "balanced",
+  "n": 150,
+  "classes": [
+    "POSITIVE",
+    "NEUTRAL",
+    "NEGATIVE"
+  ],
+  "emotions": true,
+  "seed": 42,
+  "per_class": 50,
+  "n_total": 150,
+  "n_parsed": 150,
+  "n_parse_fail": 0,
+  "accuracy": 0.72,
+  "agreement": 108,
+  "confusion": {
+    "POSITIVE": {
+      "POSITIVE": 50
+    },
+    "NEUTRAL": {
+      "POSITIVE": 8,
+      "NEGATIVE": 33,
+      "NEUTRAL": 9
+    },
+    "NEGATIVE": {
+      "NEGATIVE": 49,
+      "NEUTRAL": 1
+    }
+  },
+  "per_class_recall": {
+    "POSITIVE": {
+      "n": 50,
+      "correct": 50,
+      "recall": 1.0
+    },
+    "NEUTRAL": {
+      "n": 50,
+      "correct": 9,
+      "recall": 0.18
+    },
+    "NEGATIVE": {
+      "n": 50,
+      "correct": 49,
+      "recall": 0.98
+    }
+  },
+  "correct_class_dist": {
+    "NEGATIVE": 50,
+    "POSITIVE": 50,
+    "NEUTRAL": 50
+  }
+}

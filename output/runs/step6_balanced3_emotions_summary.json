@@ -1,0 +1,56 @@
+{
+  "run": "step6_balanced3",
+  "rows": 150,
+  "n_llm_emotion": 150,
+  "n_wordlist_emotion": 124,
+  "n_both": 124,
+  "agreement": 0.1774193548387097,
+  "per_emotion_agreement": {
+    "anger": {
+      "agree": 5,
+      "n": 51
+    },
+    "anticipation": {
+      "agree": 1,
+      "n": 1
+    },
+    "disgust": {
+      "agree": 0,
+      "n": 11
+    },
+    "fear": {
+      "agree": 1,
+      "n": 3
+    },
+    "joy": {
+      "agree": 11,
+      "n": 38
+    },
+    "sadness": {
+      "agree": 1,
+      "n": 6
+    },
+    "surprise": {
+      "agree": 0,
+      "n": 2
+    },
+    "trust": {
+      "agree": 3,
+      "n": 12
+    }
+  },
+  "per_sentiment_agreement": {
+    "NEGATIVE": {
+      "agree": 7,
+      "n": 72
+    },
+    "NEUTRAL": {
+      "agree": 2,
+      "n": 7
+    },
+    "POSITIVE": {
+      "agree": 13,
+      "n": 45
+    }
+  }
+}

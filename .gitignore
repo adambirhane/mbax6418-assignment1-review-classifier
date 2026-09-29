@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Large re-downloadable data (Amazon Reviews '23 gz, ~12 MB) and any
+# auto-fetched word lists live here; the lexicon is re-downloaded on demand.
+data/
